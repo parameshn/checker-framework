@@ -699,6 +699,17 @@ clean {
   delete("${afuManualDir}/dataflow.png")
   delete("${afuManualDir}/nocast.png")
   delete("${afuManualDir}/typecast.png")
+  delete("TAGS")
+  delete("buildSrc/TAGS")
+  delete("docs/manual/TAGS")
+  delete("annotation-file-utilities/TAGS")
+  delete("checker/TAGS")
+  delete("checker-qual/TAGS")
+  delete("checker-util/TAGS")
+  delete("dataflow/TAGS")
+  delete("framework/TAGS")
+  delete("framework-test/TAGS")
+  delete("javacutil/TAGS")
 }
 
 configurations {
